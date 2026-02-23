@@ -34,6 +34,12 @@ build/
 secrets.tfvars
 terraform.tfvars
 
+# AWS Credentials (critical for public repos)
+.aws/
+credentials
+*.credentials
+aws-credentials*
+
 # OS
 .DS_Store
 Thumbs.db
